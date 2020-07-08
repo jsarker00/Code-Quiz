@@ -1,22 +1,22 @@
 var questions = [{
-    question: "1. How do you write 'Hello World' in an alert box?",
-    choices: ["msg('Hello World')", "msgBox('Hello World');", "alertBox('Hello World');", "alert('Hello World');"],
+    question: "How do you create a function in JavaScript?",
+    choices: ["You ask the computer nicely", "function()", "function:myFunction()", "function myFunction()"],
     correctAnswer: 3
 }, {
-    question: "2. How to empty an array in JavaScript?",
-    choices: ["arrayList[]", "arrayList(0)", "arrayList.length=0", "arrayList.len(0)"],
-    correctAnswer: 2
-}, {
-    question: "3. What function to add an element at the begining of an array and one at the end?",
-    choices: ["push,unshift", "unshift,push", "first,push", "unshift,last"],
+    question: "2. The external JavaScript file must contain the <script> tag.",
+    choices: ["True", "False"],
     correctAnswer: 1
 }, {
-    question: "4. What will this output? var a = [1, 2, 3]; console.log(a[6]);",
-    choices: ["undefined", "0", "prints nothing", "Syntax error"],
-    correctAnswer: 0
+    question: "3. How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+    choices: ["if (i <> 5)", "if (i != 5)", "if i <> 5", "if i =! 5 then"],
+    correctAnswer: 1
 }, {
-    question: "5. What would following code return? console.log(typeof typeof 1);",
-    choices: ["string", "number", "Syntax error", "undefined"],
+    question: "4. JavaScript is the same as Java.",
+    choices: ["True", "False"],
+    correctAnswer: 1
+}, {
+    question: "5. How do you declare a JavaScript variable?",
+    choices: ["var carName;", "Variable=CarName;", "varCarName;", "var car=name"],
     correctAnswer: 0
 }, ];
 
